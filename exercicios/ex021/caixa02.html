@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        background-color: rgb(185, 157, 212);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+      }
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 10px 10px 0px;
+      }
+      h1 {
+        color: rgb(95, 28, 158);
+      }
+      nav {
+        background-color: rgb(95, 28, 158);
+        padding: 4px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.393);
+      }
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        margin-right: 45px;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+      }
+      main {
+        background-color: white;
+
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 10px 10px 0px;
+      }
+
+      article {
+        background-color: rgb(214, 197, 230);
+        padding: 5px;
+      }
+      article > aside {
+        background-color: rgb(185, 157, 212);
+        padding: 4px;
+      }
+      footer {
+        background-color: rgb(8, 8, 8);
+        color: white;
+        padding: 4px;
+        margin: 0px;
+        text-align: center;
+      }
+      footer > p {
+        margin: 0px;
+      }
+      div#bola {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Noticias"></section>
+      <p>Esportes Lazer Saúde Cultura</p>
+      <section id="Assuntos">
+        <article>
+          <h2>Noticias do Mundo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            expedita amet fugit quae ullam aliquam praesentium mollitia magnam
+            aliquid exercitationem. Ullam aliquid dignissimos placeat ratione id
+            eos tempora iusto delectus!
+          </p>
+          <aside>Escrito por Jonh Wick</aside>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por César Produtions</p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  background-color: lightskyblue;
+}
+
+h1 {
+  color: darkblue;
+  background-color: lightblue;
+}
+h2 {
+  color: purple;
+}
+p {
+  text-align: justify;
+}
