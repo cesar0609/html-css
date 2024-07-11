@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        width: 500px;
+      }
+
+      td {
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
-    Uso de tabelas grandes
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+         THEAD
+              TR, TD, TH
+         TBODY
+              TR, TD, TH
+         TFOOT
+              TR, TD, TH
+         -->
+    <table>
+      <thead>
+        <tr>
+          <th>Estado</th>
+          <th>População</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          São Paulo
+        </tr>
+        <tr>
+          44 411 238
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
   </body>
 </html>
