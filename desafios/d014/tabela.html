@@ -11,8 +11,10 @@
       table {
         border-collapse: collapse;
       }
-      th {
+      th,
+      td {
         border: 1px solid black;
+        padding: 15px;
       }
     </style>
   </head>
@@ -20,12 +22,18 @@
   <body>
     <table>
       <thead>
-        <th>Área</th>
-        <th>Disciplinas</th>
-        <th>Notas</th>
-        <th>Média</th>
+        <th scope="col">Área</th>
+        <th scope="col">Disciplinas</th>
       </thead>
-      <tbody></tbody>
+      <tbody>
+        <tr>
+          <th rowspan="4" scope="rowgroup">Exatas</th>
+          <td>Matematica</td>
+          <td>Fisica</td>
+          <td>Quimica</td>
+          <td>Biologia</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
